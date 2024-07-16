@@ -1,0 +1,109 @@
+
+.close-modal {
+    text-align: end;
+    cursor: pointer;
+    span {
+        font-size: 2.2rem;
+    }
+}
+
+
+.filter_container {
+    display: flex;
+}
+
+.filter_form {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    label {
+        text-align: left
+    }
+    
+    .input_container {
+        width: 350px;
+        input {
+            width: 280px;
+            height: 20px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            position: relative;
+            top: 13px;
+            span {
+                font-size: 2.2rem;
+            }
+            cursor: pointer;
+        }        
+    }
+
+}
+
+.letter_content {
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    justify-content: space-between;
+}
+
+.view_date {
+    place-self: flex-end;
+}
+
+.view_recipient{
+    margin-left: 20px;
+}
+
+
+.view_message {
+    margin: 20px 50px;
+}
+
+.letter_sender {
+    width: 20vw;
+    margin-left: 50px;
+}
+
+.letter_item {
+    background-color: #fff;
+    width: 400px;
+    border: 10px solid transparent;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 15px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+     border-image: 16 repeating-linear-gradient(
+        -45deg,#fde4f2, #f99ad0 1em,
+     transparent 0, transparent 2em,
+     #d8eeff  0, #94ccf6 3em,
+     transparent 0, transparent 4em); 
+
+     font-weight: 600;
+}
+
+.letter_header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.letter_opener {
+    float: right;
+    margin: 5px;
+
+    button {
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: #fff;
+        height: 30px;   
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+
+.letters_view {
+    display: flex;
+    place-content: center;
+}
