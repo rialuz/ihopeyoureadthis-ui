@@ -27,7 +27,7 @@ function ViewLetterModal({ letter, open, onClose, setOpen }) {
 
           <div className="letter_content">
             <div className="view_date">{letter.created_at}</div>
-            <div style={{ flex:"1"}}>
+            <div style={{ flex: "1" }}>
               <div className="view_recipient">Dear {letter.recipient}</div>
 
               <div className="view_message">{letter.message}</div>

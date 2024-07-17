@@ -20,7 +20,7 @@ const style = {
 };
 
 function AddLetterForm({ open, onClose, setLetters, setOpen }) {
-    const [errors, setErrors] = useState({});
+  const [errors, setErrors] = useState({});
   const [letter, setLetter] = useState({
     sender: "",
     recipient: "",
@@ -69,7 +69,7 @@ function AddLetterForm({ open, onClose, setLetters, setOpen }) {
               />
             </div>
 
-              <SendBtn text="Send Letter" />
+            <SendBtn text="Send Letter" />
           </form>
         </Box>
       </Modal>
