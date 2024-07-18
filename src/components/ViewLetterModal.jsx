@@ -1,5 +1,6 @@
 import { Box, Icon, Modal } from "@mui/material";
 import "./styles/Letters.css";
+import { formatDate } from "../utils/helperMethods";
 
 const style = {
   position: "absolute",
@@ -26,7 +27,7 @@ function ViewLetterModal({ letter, open, onClose, setOpen }) {
           </div>
 
           <div className="letter_content">
-            <div className="view_date">{letter.created_at}</div>
+            <div className="view_date">{formatDate(letter.created_at)}</div>
             <div style={{ flex: "1" }}>
               <div className="view_recipient">Dear {letter.recipient}</div>
 

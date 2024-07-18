@@ -1,3 +1,4 @@
+import { formatDate } from "../utils/helperMethods";
 import "./styles/Letters.css";
 
 function LetterItem({ sender, recipient, created_at, onClick }) {
@@ -12,7 +13,7 @@ function LetterItem({ sender, recipient, created_at, onClick }) {
           <p></p>
         )}
 
-        <p> {created_at}</p>
+        <p>{formatDate(created_at)}</p>
       </div>
 
       <div className="letter_recipient">

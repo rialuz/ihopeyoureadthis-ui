@@ -106,4 +106,5 @@
 .letters_view {
     display: flex;
     place-content: center;
+    margin-bottom: 50px;
 }
