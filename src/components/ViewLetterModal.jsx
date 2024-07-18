@@ -15,6 +15,8 @@ const style = {
   p: 4,
   fontSize: "24px",
   fontWeight: "600",
+  maxHeight: "600px",
+  overflowY: "auto",
 };
 
 function ViewLetterModal({ letter, open, onClose, setOpen }) {
